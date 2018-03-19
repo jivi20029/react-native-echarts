@@ -20,6 +20,7 @@ export default class App extends Component {
           injectedJavaScript = {renderChart(this.props)}
           style={{
             height: this.props.height || 400,
+            backgroundColor: 'transparent'
           }}
           
           source={source}
